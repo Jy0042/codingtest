@@ -198,7 +198,7 @@ function solution(my_string, is_prefix) {
 ---
 </br></br>
 ---
-## <p style="color:yellow;">5. 문자열을 정수로 변환</p>
+## <p style="color:yellow;">5. flag에 따라 다른 값 반환하기</p>
 
 **<p style="color:red; font-size:16px;">문제</p>**
 
