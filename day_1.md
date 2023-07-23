@@ -145,7 +145,7 @@ function solution(n_str) {
 ------
 </br></br>
 ---
-## <p style="color:yellow;">4. 문자열을 정수로 변환</p>
+## <p style="color:yellow;">4. 접두사인지 확인하기</p>
 
 **<p style="color:red; font-size:16px;">문제</p>**
 
