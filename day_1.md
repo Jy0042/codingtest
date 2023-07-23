@@ -178,7 +178,7 @@ function solution(my_string, is_prefix) {
     if (my_string.startsWith(is_prefix)) {
         answer = 1;
 
-    //또는 answer를 반환
+    //true가 아니라면 answer를 반환
     } else {
         return answer;
     }
@@ -189,6 +189,55 @@ function solution(my_string, is_prefix) {
 >`.startsWith()`는 주어진 문자열이 특정 문자열로 시작하는지 확인한다
 
 >주어진 문자열로 시작한다면 `true`, 아니면 `false`를 반환
+
+
+</div>
+</details>
+
+
+---
+</br></br>
+---
+## <p style="color:yellow;">5. 문자열을 정수로 변환</p>
+
+**<p style="color:red; font-size:16px;">문제</p>**
+
+```javascript
+function solution(a, b, flag) {
+    var answer = 0;
+    return answer;
+}
+```
+
+__*[문제 설명]*__</br>
+*두 정수 a, b와 boolean 변수 `flag`가 매개변수로 주어질 때, `flag`가 `true`면 a + b를 false면 a - b를 return 하는 `solution` 함수를 작성해 주세요.*
+
+---
+
+<details>
+<summary style="color:lime; font-size:16px;">클릭하여 정답 보기</summary>
+<div markdown="1"></br>
+
+```javascript
+//solution이라는 함수는 정수 a, b와 매개변수 flag를 받아서 처리하는 함수로 정의
+function solution(a, b, flag) {
+    //answer에 0을 저장
+    let answer = 0;
+    //flag가 'true'일 때 조건문 작성
+    if (flag == true) {
+        answer =  a + b;
+    //flag가 'true'가 아닐 때
+    } else {
+        answer = a - b;
+    }
+    return answer;
+}
+```
+**<span style="font-size:20px; color:tomato">🧐 공부한 것 정리</span>**
+>`boolean 변수`란
+어떤 프로그래밍 언어에도 존재하는 자료형, 값이 `true` 또는 `false`, 총 2개밖에 존재하지 않는 자료형, 바로 Boolean 자료형이다.
+
+>이 변수는 `true` 또는 `false` 두 가지 값 중 하나를 가질 수 있다.
 
 
 </div>
