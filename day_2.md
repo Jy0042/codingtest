@@ -20,7 +20,7 @@ function solution(rny_string) {
 ```
 
 __*[문제 설명]*__</br>
-*`'m'`과 `"rn"`이 모양이 비슷하게 생긴 점을 활용해 문자열에 장난을 하려고 합니다. 문자열 `rny_string`이 주어질 때, `rny_string`의 모든 `'m'`을 `"rn"`으로 바꾼 문자열을 `return` 하는 `solution` 함수를 작성해 주세요.*</br>
+*`m`과 `rn`이 모양이 비슷하게 생긴 점을 활용해 문자열에 장난을 하려고 합니다. 문자열 `rny_string`이 주어질 때, `rny_string`의 모든 `m`을 `rn`으로 바꾼 문자열을 `return` 하는 `solution` 함수를 작성해 주세요.*</br>
 
 ---
 
@@ -110,6 +110,7 @@ function solution(number, n, m) {
 ---
 </br></br>
 ---
+
 ## <p style="color:yellow;">3. 문자열의 앞의 n글자</p>
 
 **<p style="color:red; font-size:16px;">문제</p>**
@@ -170,7 +171,7 @@ function solution(my_string, target) {
 ```
 
 __*[문제 설명]*__</br>
-*부분 문자열이란 문자열에서 연속된 일부분에 해당하는 문자열을 의미합니다. 예를 들어, 문자열 "ana", "ban", "anana", "banana", "n"는 모두 문자열 "banana"의 부분 문자열이지만, "aaa", "bnana", "wxyz"는 모두 "banana"의 부분 문자열이 아닙니다.
+*부분 문자열이란 문자열에서 연속된 일부분에 해당하는 문자열을 의미합니다. 예를 들어, 문자열 "ana", "ban", "anana", "banana", "n"는 모두 문자열 "banana"의 부분 문자열이지만, "aaa", "bnana", "wxyz"는 모두 "banana"의 부분 문자열이 아닙니다.*
 
 문자열 `my_string`과 `target`이 매개변수로 주어질 때, `target`이 문자열 `my_string`의 부분 문자열이라면 1을, 아니라면 0을 return 하는 solution 함수를 작성해 주세요.*
 
@@ -195,7 +196,7 @@ function solution(my_string, target) {
 }
 ```
 **<span style="font-size:20px; color:tomato">🧐 공부한 것 정리</span>**
->`.includes()`는  메서드는 `하나의 문자열이 다른 문자열에 포함되어 있는지를 판별``하고, 결과를 true 또는 false 로 반환합니다. 검색 시 대소문자를 구분합니다.
+>`.includes()`는  메서드는 `하나의 문자열이 다른 문자열에 포함되어 있는지를 판별`하고, 결과를 true 또는 false 로 반환합니다. 검색 시 대소문자를 구분합니다.
 
 
 </div>
@@ -205,6 +206,7 @@ function solution(my_string, target) {
 ---
 </br></br>
 ---
+
 ## <p style="color:yellow;">5. 문자열 곱하기</p>
 
 **<p style="color:red; font-size:16px;">문제</p>**
