@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://programmers.co.kr/">
+  <a href="https://programmers.co.kr/" target="_blank">
     <img src="https://file.newswire.co.kr/data/datafile2/thumb_640/2022/07/1994211446_20220703180818_7260737807.jpg">
   </a>
 </p>
