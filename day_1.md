@@ -1,11 +1,11 @@
 <p align="center">
   <img src="https://file.newswire.co.kr/data/datafile2/thumb_640/2022/07/1994211446_20220703180818_7260737807.jpg">
 </p>
-</br></br>
+<br /><br />
 
 # 프로그래머스 코딩 기초 테스트
 
-</br>
+<br />
 
 ---
 ## <p style="color:yellow;">1. 대문로 바꾸기</p>
@@ -19,14 +19,14 @@ function solution(myString) {
 }
 ```
 
-__*[문제 설명]*__</br>
-*알파벳으로 이루어진 문자열 `myString`이 주어집니다.모든 알파벳을 대문자로 변환하여 `return` 하는 `solution` 함수를 완성해 주세요.*</br>
+__*[문제 설명]*__<br />
+*알파벳으로 이루어진 문자열 `myString`이 주어집니다.모든 알파벳을 대문자로 변환하여 `return` 하는 `solution` 함수를 완성해 주세요.*<br />
 
 ---
 
 <details>
 <summary style="color:lime; font-size:16px;">클릭하여 정답 보기</summary>
-<div markdown="1"></br>
+<div markdown="1"><br />
 
 ```javascript
 //이 함수는 solution 이라는 함수로 정의 되어있고, myString 이라는 파라미터 즉, 매개변수를 받아서 처리하는 역할을 한다
@@ -52,7 +52,7 @@ return answer;
 
 ---
 
-</br></br>
+<br /><br />
 
 ---
 ## <p style="color:yellow;">2. 소문로 바꾸기</p>
@@ -67,7 +67,7 @@ function solution(myString) {
 }
 ```
 
-__*[문제 설명]*__</br>
+__*[문제 설명]*__<br />
 *알파벳으로 이루어진 문자열 `myString`이 주어집니다. 모든 알파벳을 소문자로 변환하여 `return` 하는 `solution` 함수를 완성해 주세요.*
 
 ---
@@ -99,7 +99,7 @@ function solution(myString) {
 
 
 ---
-</br></br>
+<br /><br />
 ---
 
 ## <p style="color:yellow;">3. 문자열을 정수로 변환</p>
@@ -113,14 +113,14 @@ function solution(n_str) {
 }
 ```
 
-__*[문제 설명]*__</br>
+__*[문제 설명]*__<br />
 *숫자로만 이루어진 문자열 `n_str`이 주어질 때, `n_str`을 정수로 변환하여 `return`하도록 `solution` 함수를 완성해주세요.*
 
 ---
 
 <details>
 <summary style="color:lime; font-size:16px;">클릭하여 정답 보기</summary>
-<div markdown="1"></br>
+<div markdown="1"><br />
 
 ```javascript
 //함수 solution은 n_str이라는 매개변수를 가진 함수로 정의한다
@@ -144,7 +144,7 @@ function solution(n_str) {
 
 
 ------
-</br></br>
+<br /><br />
 ---
 
 ## <p style="color:yellow;">4. 접두사인지 확인하기</p>
@@ -158,7 +158,7 @@ function solution(my_string, is_prefix) {
 }
 ```
 
-__*[문제 설명]*__</br>
+__*[문제 설명]*__<br />
 *어떤 문자열에 대해서 접두사는 특정 인덱스까지의 문자열을 의미합니다. 예를 들어, "banana"의 모든 접두사는 "b", "ba", "ban", "bana", "banan", "banana"입니다.
 문자열 `my_string`과 `is_prefix`가 주어질 때, `is_prefix`가 `my_string`의 접두사라면 1을, 아니면 0을 `return` 하는 `solution` 함수를 작성해 주세요.*
 
@@ -166,7 +166,7 @@ __*[문제 설명]*__</br>
 
 <details>
 <summary style="color:lime; font-size:16px;">클릭하여 정답 보기</summary>
-<div markdown="1"></br>
+<div markdown="1"><br />
 
 ```javascript
 // solution이라는 함수는 my_string, is_prefix 두개의 매개변수를 받는 함수로 정의
@@ -198,7 +198,7 @@ function solution(my_string, is_prefix) {
 
 
 ---
-</br></br>
+<br /><br />
 ---
 
 ## <p style="color:yellow;">5. flag에 따라 다른 값 반환하기</p>
@@ -212,14 +212,14 @@ function solution(a, b, flag) {
 }
 ```
 
-__*[문제 설명]*__</br>
+__*[문제 설명]*__<br />
 *두 정수 a, b와 boolean 변수 `flag`가 매개변수로 주어질 때, `flag`가 `true`면 a + b를 false면 a - b를 return 하는 `solution` 함수를 작성해 주세요.*
 
 ---
 
 <details>
 <summary style="color:lime; font-size:16px;">클릭하여 정답 보기</summary>
-<div markdown="1"></br>
+<div markdown="1"><br />
 
 ```javascript
 //solution이라는 함수는 정수 a, b와 매개변수 flag를 받아서 처리하는 함수로 정의

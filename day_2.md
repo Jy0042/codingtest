@@ -1,11 +1,11 @@
 <p align="center">
   <img src="https://file.newswire.co.kr/data/datafile2/thumb_640/2022/07/1994211446_20220703180818_7260737807.jpg">
 </p>
-</br></br>
+<br /><br />
 
 # 프로그래머스 코딩 기초 테스트
 
-</br>
+<br />
 
 ---
 ## <p style="color:yellow;">1. rny_string</p>
@@ -19,14 +19,14 @@ function solution(rny_string) {
 }
 ```
 
-__*[문제 설명]*__</br>
-*`m`과 `rn`이 모양이 비슷하게 생긴 점을 활용해 문자열에 장난을 하려고 합니다. 문자열 `rny_string`이 주어질 때, `rny_string`의 모든 `m`을 `rn`으로 바꾼 문자열을 `return` 하는 `solution` 함수를 작성해 주세요.*</br>
+__*[문제 설명]*__<br />
+*`m`과 `rn`이 모양이 비슷하게 생긴 점을 활용해 문자열에 장난을 하려고 합니다. 문자열 `rny_string`이 주어질 때, `rny_string`의 모든 `m`을 `rn`으로 바꾼 문자열을 `return` 하는 `solution` 함수를 작성해 주세요.*<br />
 
 ---
 
 <details>
 <summary style="color:lime; font-size:16px;">클릭하여 정답 보기</summary>
-<div markdown="1"></br>
+<div markdown="1"><br />
 
 ```javascript
 //solution은 rny_string 라는 변수를 가진 함수로 정의
@@ -55,7 +55,7 @@ return answer;
 
 ---
 
-</br></br>
+<br /><br />
 
 ---
 ## <p style="color:yellow;">2. 공배수</p>
@@ -70,7 +70,7 @@ function solution(number, n, m) {
 }
 ```
 
-__*[문제 설명]*__</br>
+__*[문제 설명]*__<br />
 *정수 `number`와 `n, m`이 주어집니다. `number`가 `n`의 배수이면서 `m`의 배수이면 `1`을 아니라면 `0`을 `return`하도록 `solution` 함수를 완성해주세요.*
 
 ---
@@ -108,7 +108,7 @@ function solution(number, n, m) {
 
 
 ---
-</br></br>
+<br /><br />
 ---
 
 ## <p style="color:yellow;">3. 문자열의 앞의 n글자</p>
@@ -122,14 +122,14 @@ function solution(my_string, n) {
 }
 ```
 
-__*[문제 설명]*__</br>
+__*[문제 설명]*__<br />
 *문자열 `my_string`과 정수 `n`이 매개변수로 주어질 때, `my_string`의 앞의 `n`글자로 이루어진 문자열을 return 하는 solution 함수를 작성해 주세요.*
 
 ---
 
 <details>
 <summary style="color:lime; font-size:16px;">클릭하여 정답 보기</summary>
-<div markdown="1"></br>
+<div markdown="1"><br />
 
 ```javascript
 //함수 solution은 문자열 my_string, 정수 n을 매개변수로 받는다
@@ -146,7 +146,7 @@ function solution(my_string, n) {
   >>문법: `string.substring(startIndex, length)`
 
 >그 외 `substr`, `slice` 도 함께 알아보았다
->>`substr` 메서드는 `substring` 메서드와 비슷하지만 `startIndex` 가 음수라면 `역순으로 카운트`를 하고 반면 `substring` 는 `음수는 0으로 취급`한다</br></br>
+>>`substr` 메서드는 `substring` 메서드와 비슷하지만 `startIndex` 가 음수라면 `역순으로 카운트`를 하고 반면 `substring` 는 `음수는 0으로 취급`한다<br /><br />
 `slice` 메서드는 문자열의 뒤에서 부터 카운트 한다
 
 
@@ -157,7 +157,7 @@ function solution(my_string, n) {
 
 
 ------
-</br></br>
+<br /><br />
 ---
 ## <p style="color:yellow;">4. 부분 문자열인지 확인하기</p>
 
@@ -170,7 +170,7 @@ function solution(my_string, target) {
 }
 ```
 
-__*[문제 설명]*__</br>
+__*[문제 설명]*__<br />
 *부분 문자열이란 문자열에서 연속된 일부분에 해당하는 문자열을 의미합니다. 예를 들어, 문자열 "ana", "ban", "anana", "banana", "n"는 모두 문자열 "banana"의 부분 문자열이지만, "aaa", "bnana", "wxyz"는 모두 "banana"의 부분 문자열이 아닙니다.*
 
 문자열 `my_string`과 `target`이 매개변수로 주어질 때, `target`이 문자열 `my_string`의 부분 문자열이라면 1을, 아니라면 0을 return 하는 solution 함수를 작성해 주세요.*
@@ -179,7 +179,7 @@ __*[문제 설명]*__</br>
 
 <details>
 <summary style="color:lime; font-size:16px;">클릭하여 정답 보기</summary>
-<div markdown="1"></br>
+<div markdown="1"><br />
 
 ```javascript
 //solution 은 my_string, target을 매개변수로 받는다
@@ -204,7 +204,7 @@ function solution(my_string, target) {
 
 
 ---
-</br></br>
+<br /><br />
 ---
 
 ## <p style="color:yellow;">5. 문자열 곱하기</p>
@@ -218,14 +218,14 @@ function solution(my_string, k) {
 }
 ```
 
-__*[문제 설명]*__</br>
+__*[문제 설명]*__<br />
 *문자열 `my_string`과 정수 `k`가 주어질 때, `my_string`을 `k`번 반복한 문자열을 return 하는 solution 함수를 작성해 주세요.*
 
 ---
 
 <details>
 <summary style="color:lime; font-size:16px;">클릭하여 정답 보기</summary>
-<div markdown="1"></br>
+<div markdown="1"><br />
 
 ```javascript
 //solution 함수는 my_srting, k 매개변수를 받는다

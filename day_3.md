@@ -1,11 +1,11 @@
 <p align="center">
   <img src="https://file.newswire.co.kr/data/datafile2/thumb_640/2022/07/1994211446_20220703180818_7260737807.jpg">
 </p>
-</br></br>
+<br /><br />
 
 # 프로그래머스 코딩 기초 테스트
 
-</br>
+<br />
 
 ---
 ## <p style="color:yellow;">1. n 번째 원소까지</p>
@@ -19,14 +19,14 @@ function solution(num_list, n) {
 }
 ```
 
-__*[문제 설명]*__</br>
-*정수 리스트 `num_list`와 정수 `n`이 주어질 때, `num_list`의 첫 번째 원소부터 `n` 번째 원소까지의 모든 원소를 담은 리스트를 return하도록 solution 함수를 완성해주세요.*</br>
+__*[문제 설명]*__<br />
+*정수 리스트 `num_list`와 정수 `n`이 주어질 때, `num_list`의 첫 번째 원소부터 `n` 번째 원소까지의 모든 원소를 담은 리스트를 return하도록 solution 함수를 완성해주세요.*<br />
 
 ---
 
 <details>
 <summary style="color:lime; font-size:16px;">클릭하여 정답 보기</summary>
-<div markdown="1"></br>
+<div markdown="1"><br />
 
 ```javascript
 //solution 함수는 매개변수 num_list, n 받는다
@@ -52,7 +52,7 @@ function solution(num_list, n) {
 
 ---
 
-</br></br>
+<br /><br />
 
 ---
 ## <p style="color:yellow;">2. 문자열 출력하기</p>
@@ -76,7 +76,7 @@ rl.on('line', function (line) {
 });
 ```
 
-__*[문제 설명]*__</br>
+__*[문제 설명]*__<br />
 *문자열 `str`이 주어질 때, `str`을 출력하는 코드를 작성해 보세요.*
 
 ---
@@ -108,7 +108,7 @@ rl.on('line', function (line) {
 ```
 **<span style="font-size:20px; color:tomato">🧐 공부한 것 정리</span>**
 
->처음에 이렇게 간단한 건 줄 몰랐다..</br>
+>처음에 이렇게 간단한 건 줄 몰랐다..<br />
 문제를 제대로 읽고 파악하는 능력을 좀 더 길러야겠다..
 
 >해당 코드의 전반적인 문법은 아직 잘 모르겠지만
@@ -121,7 +121,7 @@ rl.on('line', function (line) {
 
 
 ---
-</br></br>
+<br /><br />
 ---
 
 ## <p style="color:yellow;">3. a와 b 출력하기</p>
@@ -144,14 +144,14 @@ rl.on('line', function (line) {
 });
 ```
 
-__*[문제 설명]*__</br>
+__*[문제 설명]*__<br />
 *정수 `a`와 `b`가 주어집니다. 각 수를 입력받아 입출력 예와 같은 형식으로 출력하는 코드를 작성해 보세요.*
 
 ---
 
 <details>
 <summary style="color:lime; font-size:16px;">클릭하여 정답 보기</summary>
-<div markdown="1"></br>
+<div markdown="1"><br />
 
 ```javascript
 const readline = require('readline');
@@ -183,7 +183,7 @@ rl.on('line', function (line) {
 
 
 ------
-</br></br>
+<br /><br />
 ---
 
 ## <p style="color:yellow;">4. 문자열 반복해서 출력하기</p>
@@ -207,7 +207,7 @@ rl.on('line', function (line) {
 });
 ```
 
-__*[문제 설명]*__</br>
+__*[문제 설명]*__<br />
 *문자열 `str`과 정수 `n`이 주어집니다.
 `str`이 `n`번 반복된 문자열을 만들어 출력하는 코드를 작성해 보세요.*
 
@@ -215,7 +215,7 @@ __*[문제 설명]*__</br>
 
 <details>
 <summary style="color:lime; font-size:16px;">클릭하여 정답 보기</summary>
-<div markdown="1"></br>
+<div markdown="1"><br />
 
 ```javascript
 const readline = require('readline');
@@ -246,7 +246,7 @@ rl.on('line', function (line) {
 
 
 ---
-</br></br>
+<br /><br />
 ---
 ## <p style="color:yellow;">5. 대소문자 바꿔서 출력하기</p>
 
@@ -268,14 +268,14 @@ rl.on('line', function (line) {
 });
 ```
 
-__*[문제 설명]*__</br>
+__*[문제 설명]*__<br />
 *영어 알파벳으로 이루어진 문자열 `str`이 주어집니다. 각 알파벳을 대문자는 소문자로 소문자는 대문자로 변환해서 출력하는 코드를 작성해 보세요.*
 
 ---
 
 <details>
 <summary style="color:lime; font-size:16px;">클릭하여 정답 보기</summary>
-<div markdown="1"></br>
+<div markdown="1"><br />
 
 ```javascript
 const readline = require('readline');
