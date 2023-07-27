@@ -20,7 +20,7 @@ function solution(rny_string) {
 ```
 
 __*[문제 설명]*__<br />
-*`m`과 `rn`이 모양이 비슷하게 생긴 점을 활용해 문자열에 장난을 하려고 합니다. 문자열 `rny_string`이 주어질 때, `rny_string`의 모든 `m`을 `rn`으로 바꾼 문자열을 `return` 하는 `solution` 함수를 작성해 주세요.*<br />
+*`m`과 `rn`이 모양이 비슷하게 생긴 점을 활용해 문자열에 장난을 하려고 합니다. <br />문자열 `rny_string`이 주어질 때, `rny_string`의 모든 `m`을 `rn`으로 바꾼 문자열을 `return` 하는 `solution` 함수를 작성해 주세요.*<br />
 
 ---
 
@@ -41,7 +41,7 @@ return answer;
 ```
 **<span style="font-size:20px; color:tomato">🧐 공부한 것 정리</span>**
 
->`replaceAll()` 메서드는 pattern의 모든 일치 항목이 replacement로 대체된 새 문자열을 반환합니다. pattern은 문자열 또는 RegExp일 수 있으며 replacement는 각 일치 항목에 대해 호출되는 문자열 또는 함수일 수 있습니다. 원래 문자열은 변경되지 않습니다.
+>`replaceAll()` 메서드는 pattern의 모든 일치 항목이 replacement로 대체된 새 문자열을 반환합니다.<br /> pattern은 문자열 또는 RegExp일 수 있으며 replacement는 각 일치 항목에 대해 호출되는 문자열 또는 함수일 수 있습니다. <br />원래 문자열은 변경되지 않습니다.
 
 >문법
 `string.replaceAll(pattern, replacement)`
@@ -97,7 +97,7 @@ function solution(number, n, m) {
 
 >`||`과 `&&` 연산자를 정확하게 몰라 ||로 풀었는데 찾아보니 잘못된 풀이였다
 
->`||연산자`는 둘중 하나가 참이라면 true를 반환하고
+>`||연산자`는 둘중 하나가 참이라면 true를 반환하고<br />
 `&&연산자`는 모든 조건이 참이여야 true를 반환한다
 
 >또 문제를 반대로 나머지가 1이라면 0 그렇지 않다면 1을 출력하도록 반대로 작성했었다
@@ -171,9 +171,9 @@ function solution(my_string, target) {
 ```
 
 __*[문제 설명]*__<br />
-*부분 문자열이란 문자열에서 연속된 일부분에 해당하는 문자열을 의미합니다. 예를 들어, 문자열 "ana", "ban", "anana", "banana", "n"는 모두 문자열 "banana"의 부분 문자열이지만, "aaa", "bnana", "wxyz"는 모두 "banana"의 부분 문자열이 아닙니다.*
+*부분 문자열이란 문자열에서 연속된 일부분에 해당하는 문자열을 의미합니다. <br />예를 들어, 문자열 "ana", "ban", "anana", "banana", "n"는 모두 문자열 "banana"의 부분 문자열이지만, "aaa", "bnana", "wxyz"는 모두 "banana"의 부분 문자열이 아닙니다.*
 
-문자열 `my_string`과 `target`이 매개변수로 주어질 때, `target`이 문자열 `my_string`의 부분 문자열이라면 1을, 아니라면 0을 return 하는 solution 함수를 작성해 주세요.*
+*문자열 `my_string`과 `target`이 매개변수로 주어질 때, `target`이 문자열 `my_string`의 부분 문자열이라면 1을, 아니라면 0을 return 하는 solution 함수를 작성해 주세요.*
 
 ---
 
