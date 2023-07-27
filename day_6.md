@@ -82,13 +82,21 @@ __*[문제 설명]*__<br />
 <div markdown="1">
 
 ```javascript
-function solution(str1, str2) {
-    
-    var answer = '';
-    
-    // 반복문으로 두 매개변수의 문자열을 더한 값만큼 실행
-    for (let i = 0; i < str1.length; i++) {
-        answer += str1[i] + str2[i];
+function solution(n) {
+    var answer = 0;
+    // 조건문으로 n 이 홀수일때를 판별
+    if ( n % 2 === 1 ) {
+        // 반복문으로 n 이 홀수면 i를 1 로 할당하고 n 보다 작거나 같을 때까지 +2씩 증가
+        for (let i = 1; i <= n; i += 2) {
+            // 반복문의 조건의 부합한 모든 값을 더한 값 i를 answer에 추가
+            answer += i
+        }
+    // 또 다른 조건으로 n 이 짝수일때
+    } else if ( n % 2 === 0 ) {
+        // 반복문으로 n이 짝수면 i를 2로 할당하고 n 보다 작거나 같을 때까지 +2씩 증가
+        for (let i = 2; i <= n; i += 2)
+            // 조건에 부합한 모든 i 는 2제곱을 한 뒤 값을 더해 answer 에 추가
+            answer += i**2
     }
     return answer;
 }
