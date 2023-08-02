@@ -172,3 +172,126 @@ function solution(ineq, eq, n, m) {
 ------
 <br /><br />
 ---
+
+## <p style="color:yellow;">4. 코드 처리하기</p>
+
+**<p style="color:red; font-size:16px;">문제</p>**
+
+```javascript
+function solution(code) {
+    var answer = '';
+    return answer;
+}
+```
+
+__*[문제 설명]*__<br />
+*문자열 `code`가 주어집니다. <br />
+<br />
+`code`를 앞에서부터 읽으면서 만약 문자가 "1"이면 `mode`를 바꿉니다. `mode`에 따라 `code`를 읽어가면서 문자열 `ret`을 만들어냅니다.<br />
+`mode`는 0과 1이 있으며, `idx`를 0 부터 `code의 길이 - 1` 까지 1씩 키워나가면서 `code[idx]`의 값에 따라 다음과 같이 행동합니다.<br />
+<br />
+`mode`가 0일 때<br />
+`code[idx]`가 "1"이 아니면 `idx`가 짝수일 때만 `ret`의 맨 뒤에 `code[idx]`를 추가합니다.<br />
+`code[idx]`가 "1"이면 `mode`를 0에서 1로 바꿉니다.<br />
+`mode`가 1일 때<br />
+`code[idx]`가 "1"이 아니면 `idx`가 홀수일 때만 `ret`의 맨 뒤에 `code[idx]`를 추가합니다.<br />
+`code[idx]`가 "1"이면 `mode`를 1에서 0으로 바꿉니다.<br />
+문자열 `code`를 통해 만들어진 문자열 `ret`를 return 하는 solution 함수를 완성해 주세요.<br />
+<br />
+단, 시작할 때 `mode`는 0이며, return 하려는 `ret`가 만약 빈 문자열이라면 대신 "EMPTY"를 return 합니다.*
+
+---
+
+<details>
+<summary style="color:lime; font-size:16px;">클릭하여 정답 보기</summary>
+<div markdown="1"><br />
+
+```javascript
+function solution(code) {
+    let ret = '';
+    
+    // mode의 초기값 설정
+    let mode = 0;
+    
+    for (let i = 0; i < code.length; i++) {
+        // 조건문으로 mode의 값을 설정
+        if (mode === 0) {
+            if (code[i] !== "1" && i % 2 === 0) {
+                ret += code[i];
+            } else if (code[i] === "1") {
+                mode = 1;
+            }
+        } else if (mode === 1) {
+             if (code[i] !== "1" && i % 2 === 1) {
+                ret += code[i];
+            } else if (code[i] === "1") {
+                mode = 0;
+            }
+        }
+    }
+    if (ret === '') {
+        ret = "EMPTY";
+    }
+    return ret;
+}
+```
+**<span style="font-size:20px; color:tomato">🧐 공부한 것 정리</span>**
+>조건문 너무 난잡한거 같아서 다른 방법의 풀이를 찾아보니
+
+```javascript
+if (code[i] === "1") {
+      mode = 1 - mode;
+    } else if ((mode === 0 && i % 2 === 0) || (mode === 1 && i % 2 === 1)) {
+      ret += code[i];
+    }
+```
+>이렇게 조건문을 짤수도 있었다<br />
+초기 `mode` 의 값을 `0`으로 설정했으니 추가 조건문에서 값을 할당하여 간단하게 처리할 수 있었다
+</div>
+</details>
+
+
+---
+<br /><br />
+---
+## <p style="color:yellow;">5. 등차수열의 특정한 항만 더하기</p>
+
+**<p style="color:red; font-size:16px;">문제</p>**
+
+```javascript
+function solution(a, d, included) {
+    var answer = 0;
+    return answer;
+}
+```
+
+__*[문제 설명]*__<br />
+*두 정수 `a`, `d`와 길이가 n인 boolean 배열 `included`가 주어집니다. 첫째항이 `a`, 공차가 `d`인 등차수열에서 `included[i]`가 i + 1항을 의미할 때, 이 등차수열의 1항부터 n항까지 `included`가 true인 항들만 더한 값을 return 하는 solution 함수를 작성해 주세요.*
+
+---
+
+<details>
+<summary style="color:lime; font-size:16px;">클릭하여 정답 보기</summary>
+<div markdown="1"><br />
+
+```javascript
+function solution(a, d, included) {
+    var answer = 0;
+
+    // 반복문으로 included 의 배열의 길이 까지 실행
+    for (let i = 0; i < included.length; i++) {
+        // 조건문으로 included index가 true 일 때
+        if (included[i]) {
+            answer += a + i * d;
+        }
+    }
+    return answer;
+}
+```
+**<span style="font-size:20px; color:tomato">🧐 공부한 것 정리</span>**
+>문제의 수열을 알고있다면 쉬울수도...
+</div>
+</details>
+
+
+---
